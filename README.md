@@ -70,13 +70,16 @@ V- code folder
     2. Data Inspection
     3. Preliminary Cleaning
     4. Stopwords Glance
-    5. Modeling Section (CountVectorizer with Logistic Regression and TFIDF Vectorizer with Support Vector Machine Included)
-### `FunctionDocumentation`: Markdown cells explaining the way each function works from a theory-standpoint adapted directly from course notes and links to online documentation where applicable. 
+    5. Modeling Section (CountVectorizer with Logistic Regression and TFIDF Vectorizer with Support Vector Machine)
+    6. BONUS: Aforementioned Models with SMOTE
+### `FunctionDocumentation`: Markdown cells explaining the way each processing method works from a theory-standpoint, adapted directly from course notes, and links to function documentation sourced from online documentation. 
+### Source material attributed to General Assembly course notes and functions to online documentation centers, respectively. 
 #### Sections: 
     1. CountVectorizer Theory
     2. TFIDF Vectorizer Theory
     3. Logistic Regression Documentation
-    4. Support Vector Machine Documentation
+    4. Support Vector Machine (SVM) Documentation
+    5. SMOTE Documentation
 ## Data Folder Contents
 
 Datafiles from webscraping. Format follows this convention: $\text{df\_\,d\#}$ or $\text{df\_\,r\#}$ based on whether data was gathered from `democrats` or `Republican` subreddit, respectively. Data was then merged into one dataframe and exported to final file $\text{df\_\,final\#}.$
@@ -88,6 +91,7 @@ Images formatted for the powerpoint presentation.
     1. Barchart of important words in final posts list
     2. Confusion Matrix for Logistic Regression Model
     3. Confusion Matrix for Support Vector Machine Model
+    4. Confusion Matrix for Logistic Regression with SMOTE
 
 ## Images Function Documentation Folder Contents
 Images for the purpose of the `FunctionDocumentation.ipynb` file adapted from course lessons.
@@ -104,6 +108,6 @@ Precision in SVM was high, defined as 'the probability that the model was correc
 
 Accuracy, defined as 'the percentage of observations correctly predicted within the test class,' was highly fine-tuned. 
 
-It will be revealed that $\textit{SVM}$ outperformed $\textit{logistic regression}$ in the aforementioned classification metrics; thus $\textit{SVM}$ was the optimal model at differentiating between the two subreddit classes. 
+It will be revealed that $\textit{SVM}$ outperformed $\textit{logistic\,regression}$ in the aforementioned classification metrics; thus $\textit{SVM}$ was the optimal model at differentiating between the two subreddit classes. 
 
 
