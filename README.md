@@ -90,10 +90,14 @@ Datafiles from webscraping. Format follows this convention: $\text{df\_\,d\#}$ o
 
 Images formatted for the PowerPoint presentation. 
 #### Files: 
-    1. Barchart of important words in final posts list
+    1. Confusion Matrix for Logistic Regression with SMOTE
     2. Confusion Matrix for Logistic Regression Model
     3. Confusion Matrix for Support Vector Machine Model
-    4. Confusion Matrix for Logistic Regression with SMOTE
+    4. "GOPDEM" - Image for PowerPoint Presentation
+    5. "NLP_Sample" - Image for PowerPoint Presentation (Attributed to Course Lesson)
+    6. "reddit-alien" - Image for PowerPoint Presentation 
+    7. Barchart of important words in final posts list
+    8. "Troll" - Image for PowerPoint Presentation
 
 ## Images Function Documentation Folder Contents
 Images for the purpose of the `FunctionDocumentation.ipynb` file adapted from course lessons.
