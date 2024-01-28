@@ -4,6 +4,8 @@
 
 1. With [PRAW](https://praw.readthedocs.io/en/stable/), collect posts from two subreddits, `democrats` and `Republican.`
 2. Utilize NLP modeling to train a classifier to predict from which subreddit a given post originated. In this binary classification problem the objective will be to create the most accurate and optimized model possible and quantify success by relying upon classification metrics such as sensitivity, specificity, precision, accuracy, and the misclassification rate. 
+3. Stakeholders in this research will be individuals and organizations interested in learning how NLP models may differentiate between supporters of two different political parties based on language used in their posts and how accurately these predictions may be made. 
+4. Therefore, this study will enable these stakeholders to understand the process and considerations that must be made in order to create a fully functional NLP model and distinguish between these groups in a highly technical and sophisticated manner so that they may design their own models for future research.
 
 # Primary Objective
 
@@ -40,7 +42,7 @@ Data collection
 ## General Folder Contents
 
 - Readme/executive summary in markdown.
-- Powerpoint presentation as a `PDF` file.
+- PowerPoint presentation as a `PDF` file.
 V- code folder
 - data folder
 - images folder
@@ -55,7 +57,7 @@ V- code folder
     3. Subreddit Titles
     4. Scraping Subreddit Titles
     5. Saving, Viewing, Exporting DataFrames
-### `Data_Imports_and_EDA.ipynb`: Imports of datafiles and subsequent concatentation into one Dataframe. Exploratory data analysis (EDA), dummifying of target column, and modifications to Dataframe are detailed. Resulting file is exported for future usage.
+### `Data_Imports_and_EDA.ipynb`: Imports of datafiles and subsequent concatenation into one DataFrame. Exploratory data analysis (EDA), dummifying of target column, and modifications to DataFrame are detailed. Resulting file is exported for future usage.
 #### Sections: 
     1. Imports
     2. Loading Data
@@ -82,11 +84,11 @@ V- code folder
     5. SMOTE Documentation
 ## Data Folder Contents
 
-Datafiles from webscraping. Format follows this convention: $\text{df\_\,d\#}$ or $\text{df\_\,r\#}$ based on whether data was gathered from `democrats` or `Republican` subreddit, respectively. Data was then merged into one dataframe and exported to final file $\text{df\_\,final\#}.$
+Datafiles from webscraping. Format follows this convention: $\text{df\_\,d\#}$ or $\text{df\_\,r\#}$ based on whether data was gathered from `democrats` or `Republican` subreddit, respectively. Data was then merged into one DataFrame and exported to final file $\text{df\_\,final\#}.$
 
 ## Image Folder Contents
 
-Images formatted for the powerpoint presentation. 
+Images formatted for the PowerPoint presentation. 
 #### Files: 
     1. Barchart of important words in final posts list
     2. Confusion Matrix for Logistic Regression Model
@@ -109,5 +111,7 @@ Precision in SVM was high, defined as 'the probability that the model was correc
 Accuracy, defined as 'the percentage of observations correctly predicted within the test class,' was highly fine-tuned. 
 
 It will be revealed that $\textit{SVM}$ outperformed $\textit{logistic\,regression}$ in the aforementioned classification metrics; thus $\textit{SVM}$ was the optimal model at differentiating between the two subreddit classes. 
+
+Thus, stakeholders interested in creating a fully functional NLP model and distinguishing between political parties in a highly technical and sophisticated manner may utilize SVM to achieve success in their research. Other models like logistic regression and different Naive Bayes statistical models (Bernoulli, Multinomial, and Guassian) are also adequate, but Support Vector Machines (SVM) will perform optimally compared with these models. The author recommends SVM for this binary classification problem and the research done in this study will substantiate this position. 
 
 
