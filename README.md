@@ -24,6 +24,8 @@ PRAW is a Python wrapper for the Reddit API.  The Reddit API has more functional
 
 One drawback of PRAW is that it only allows collection of up to around 1000 posts from any given subreddit stream. 
 
+In this project, we use a placeholder file as `praw.ini` had path conflicts locally which could not be resolved even with more technical assistance. Please see the notebook for details, as one can define a separate `.py` file with their Reddit API credentials and import it within the security of their local notebook. When this issue is resolved the repo will be updated accordingly.  
+
 # Model Workflow
 
 Data Choices
