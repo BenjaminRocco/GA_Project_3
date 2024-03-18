@@ -1,4 +1,4 @@
-# USA Political Party Subreddit Classification: Extensive Applications with Natural Language Process Models
+# USA Political Party Subreddit Classification: Extensive Applications with Natural Language Processing Models
 
 # Goals
 
